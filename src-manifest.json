@@ -7,5 +7,54 @@
   ],
   "srcRoot": "",
   "regions": [],
-  "hasDom": false
+  "hasDom": false,
+  "types": [
+    {
+      "name": "GradeCalculatorTests",
+      "kind": "class",
+      "file": "GradeBook.Tests/GradeCalculatorTests.cs",
+      "line": 6,
+      "members": [
+        {
+          "name": "Average_OfKnownSet_IsCorrect",
+          "kind": "method",
+          "signature": "Average_OfKnownSet_IsCorrect()",
+          "line": 9
+        },
+        {
+          "name": "Average_OfEmptySet_Throws",
+          "kind": "method",
+          "signature": "Average_OfEmptySet_Throws()",
+          "line": 16
+        },
+        {
+          "name": "Letter_MapsScoreToExpectedGrade",
+          "kind": "method",
+          "signature": "Letter_MapsScoreToExpectedGrade(double score, char expected)",
+          "line": 27
+        }
+      ]
+    },
+    {
+      "name": "GradeCalculator",
+      "kind": "class",
+      "file": "GradeBook/GradeCalculator.cs",
+      "line": 8,
+      "members": [
+        {
+          "name": "Average",
+          "kind": "method",
+          "signature": "Average(IReadOnlyCollection<double> grades)",
+          "line": 11
+        },
+        {
+          "name": "Letter",
+          "kind": "method",
+          "signature": "Letter(double score)",
+          "line": 22
+        }
+      ]
+    }
+  ],
+  "lens": "types"
 }
