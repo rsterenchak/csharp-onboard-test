@@ -1,0 +1,11 @@
+{
+  "files": [
+    "GradeBook.Tests/GradeCalculatorTests.cs",
+    "GradeBook/GradeCalculator.cs",
+    "GradeBook/Program.cs",
+    "Program.cs"
+  ],
+  "srcRoot": "",
+  "regions": [],
+  "hasDom": false
+}
